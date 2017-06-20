@@ -1,3 +1,5 @@
+import { token } from './secrets'
+
 function findArtist(userSearch) {
   document.querySelector('.search-results').textContent = "Searching for... " + userSearch;
   fetch(`https://api.soundcloud.com/users/${token}&q=` + userSearch, {}).then(function(response) {
