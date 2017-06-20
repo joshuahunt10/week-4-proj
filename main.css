@@ -1,23 +1,84 @@
-* {
-box-sizing: border-box;
-margin: 0 auto;
+body{
+  font-size: 16px;
+  background-image: url("images/background2.jpg");
+  background-size: cover;
+  font-family: 'Exo 2', sans-serif;
+  margin-top: 0px;
 }
 
-img {
-  max-width: 100%;
+h1{
+  color:#295f48;
+  font-size: 3rem;
+  margin:0px;
 }
 
+.head-wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1% 0% 1% 0%;
+}
 
+.logo-pic{
+  width:8%;
+}
 
-/*-------RESPONSIVE DESIGN-------*/
-/*-------Tablet Display-------*/
-
-@media screen and ( min-width: 545px ) {
+.search-wrapper{
+  display: flex;
 
 }
 
-/*-------Desktop Display-------*/
+#search-input{
+  font-size:2rem;
+  width:100%;
+  margin-top: 2%;
+}
 
-@media screen and ( min-width: 769px ) {
+.reset-button{
+  font-size: 3rem;
+  margin:3%;
+}
 
+audio{
+  width:400px;
+  height:40px;
+  padding-left: 33%;
+}
+
+.audio-p{
+  background-color:#18392b;
+  text-align:center;
+  color:white;
+  font-size:1.5rem;
+  width: 408px;
+  margin-left:33%;
+}
+.search-results{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #18392b;
+  margin: 2% 5% 0 5%;
+  justify-content: space-around;
+}
+
+.band-wrapper{
+  margin:2% 3%;
+  padding: 1% 1% 0% 1%;
+  border:2px solid black;
+  flex-basis:11%;
+  background-color: #eeeeee;
+}
+
+.band-name{
+  text-align: center;
+}
+
+.band-name-p{
+  width:110px;
+}
+
+.band-art{
+  text-align: center;
 }
